@@ -106,7 +106,7 @@ a:hover {
 .img {
   height: 500px;
   width: 500px;
-  background: url(1.png);
+  background: url(5.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -254,3 +254,25 @@ a:hover {
 }
 
 /* product end */
+
+/* footter start */
+
+.containetr {
+  padding: 1.3em;
+  /* border: 2px solid red; */
+  color: #fff;
+}
+.description {
+  margin-top: 0.5em;
+  word-spacing: 0.2em;
+}
+
+span {
+  color: #deab5f;
+}
+.para {
+  padding: 1em;
+  color: #fff;
+  text-align: center;
+  word-spacing: 0.2em;
+}
