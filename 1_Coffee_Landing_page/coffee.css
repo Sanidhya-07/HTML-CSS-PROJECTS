@@ -180,3 +180,77 @@ a:hover {
   background-position: center;
   background-size: cover;
 }
+/* coffee container end */
+
+/* Product start  */
+.products {
+  margin-top: 5em;
+}
+
+.title-three {
+  font-size: 4em;
+  margin-left: 1.6em;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 2.5em;
+  margin-bottom: 4em;
+}
+.card {
+  height: 550px;
+  width: 400px;
+  border: 2px solid var(--main-color);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.5em;
+  position: relative;
+}
+.card-title {
+  color: #fff;
+  font-family: sans-serif;
+  margin-top: 3em;
+  font-size: larger;
+}
+
+.card .items p {
+  color: #fff;
+  font-family: sans-serif;
+  margin: 1.5em 0;
+}
+
+.card-image {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: -100px;
+}
+
+.img-one {
+  background: url(4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-two {
+  background: url(2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.img-three {
+  background: url(1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* product end */
